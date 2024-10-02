@@ -24,7 +24,7 @@ const Contact = () => {
               <h2 className="mb-2 text-center text-3xl font-bold !leading-tight text-black dark:text-white sm:text-4xl md:text-[45px]">
                 Contact
               </h2>
-              <p className="text-base !leading-relaxed text-black md:text-lg text-center">Let's awaken together</p>
+              <p className="text-base !leading-relaxed text-black md:text-lg text-center">Let&apos;s awaken together</p>
             </div>
 
 
