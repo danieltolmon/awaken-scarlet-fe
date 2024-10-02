@@ -12,7 +12,7 @@
 
 @layer components {
   .container {
-    @apply sm:max-w-[525px] md:max-w-[718px] lg:max-w-[900px] xl:max-w-[1100px] 2xl:max-w-[1200px];
+    @apply xs:max-w-[430px] sm:max-w-[525px] md:max-w-[718px] lg:max-w-[900px] xl:max-w-[1100px] 2xl:max-w-[1200px];
   }
 }
 
