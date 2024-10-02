@@ -11,7 +11,7 @@ const menuData: Menu[] = [
   {
     id: 2,
     title: "scarlet.",
-    path: "/#scarlet",
+    path: "/scarlet",
     scroll: false,
     newTab: false,
   },
@@ -25,14 +25,14 @@ const menuData: Menu[] = [
   {
     id: 4,
     title: "sessions.",
-    path: "/#sessions",
+    path: "/sessions",
     scroll: true,
     newTab: false,
   },
   {
     id: 5,
     title: "daniel.",
-    path: "/about",
+    path: "/daniel",
     scroll: false,
     newTab: false,
   },

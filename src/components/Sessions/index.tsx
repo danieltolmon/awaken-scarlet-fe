@@ -1,10 +1,11 @@
 import sessions from './sessionsData'
+import Link from 'next/link';
 
-const Sessions = () => {
+const Sessions = ({ isPage }) => {
 
   return (
     <>
-      <section id="sessions" className="py-16 md:py-20 lg:py-28 bg-light2">
+      <section id="sessions" className={`py-16 md:py-20 lg:py-28 ${isPage ? 'bg-light' : 'bg-light2'}`}>
         <div className='container'>
 
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 ">
@@ -17,7 +18,7 @@ const Sessions = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-lg mx-auto md:max-w-2xl lg:max-w-full">
 
             {sessions.map(session => <div key={session.id} className="relative w-full h-auto md:col-span-2">
-              <div  className="bg-primary/80 shadow-two border-black border-solid rounded-2xl flex  justify-between flex-row flex-wrap cursor-pointer">
+              <div className="bg-primary/80 shadow-two border-black border-solid rounded-2xl flex  justify-between flex-row flex-wrap cursor-pointer">
                 <div className="p-5 xl:p-8 w-full md:w-1/2 flex flex-col justify-between">
                   <h3 className="text-lg font-bold xl:text-xl text-white py-5 w-full xl:w-64">
                     {session.title}
@@ -29,13 +30,13 @@ const Sessions = () => {
                     {session.price}
                   </p>
                   <div className='flex gap-4 mb-4'>
-                    <button className=" py-2 px-5 border border-solid border-gray-300 rounded-md gap-2 text-xs text-white font-semibold flex items-center justify-between transition-all duration-500 hover:bg-white/5">
+                    <Link href='/contact' className=" py-2 px-5 border border-solid border-gray-300 rounded-md gap-2 text-xs text-white font-semibold flex items-center justify-between transition-all duration-500 hover:bg-white/5">
                       Contact
-                    </button>
+                    </Link>
                     {session.booking &&
-                      <button className="bg-primary py-2 px-5 border border-solid border-gray-300 rounded-md gap-2 text-xs text-white font-semibold flex items-center justify-between transition-all duration-500 hover:bg-white/5">
+                      <Link href='/contact' className="bg-primary py-2 px-5 border border-solid border-gray-300 rounded-md gap-2 text-xs text-white font-semibold flex items-center justify-between transition-all duration-500 hover:bg-white/5">
                         Book
-                      </button>}
+                      </Link>}
                   </div>
 
                 </div>
