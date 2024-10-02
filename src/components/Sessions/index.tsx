@@ -1,7 +1,13 @@
+import React, { FunctionComponent } from 'react'
 import sessions from './sessionsData'
 import Link from 'next/link';
 
-const Sessions = ({ isPage }) => {
+type Props = {
+  isPage?: boolean
+}
+
+
+const Sessions: FunctionComponent<Props> = ({ isPage }) => {
 
   return (
     <>

@@ -1,5 +1,3 @@
-import { ReactComponentElement } from "react";
-
 export type Session = {
   id: number;
   title: string;
