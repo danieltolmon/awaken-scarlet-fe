@@ -11,8 +11,8 @@ import QuoteImage from "@/components/QuoteImage"
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Awaken Scarlet Kundalini Activation",
-  description: "Awaken Scarlet empowers individuals on their spiritual journey through Kundalini activation and energy awakening. Unlock your highest potential with expert guidance and transformative experiences.",
+  title: "Scarlet Kundalini Activation",
+  description: "Awaken Scarlet empowers spiritual individuals through Kundalini activation. Unlock your highest potential with expert guidance and transformative experiences.",
   // other metadata
 };
 

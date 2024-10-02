@@ -4,8 +4,8 @@ import Contact from "@/components/Contact";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Contact Page | Awaken Scarlet Kundalini Activation",
-  description: "This is Contact Page for Awaken Scarlet Kundalini Activation",
+  title: "Contact Page | Scarlet Kundalini Activation",
+  description: "Awaken Scarlet empowers spiritual individuals through Kundalini activation. Unlock your highest potential with expert guidance and transformative experiences.",
   // other metadata
 };
 
