@@ -24,8 +24,8 @@ export default function Home() {
       <Quote />
       <Scarlet />
       <Sessions />
-      {/* <Daniel />
-      <Video /> */}
+      <Daniel />
+      {/* <Video /> */}
       <Testimonials />
       {/* <Blog /> */}
       <Contact />

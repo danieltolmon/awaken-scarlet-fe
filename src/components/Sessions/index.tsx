@@ -5,9 +5,9 @@ const Sessions = () => {
   return (
     <>
       <section id="sessions" className="py-16 md:py-20 lg:py-28 bg-light2">
-        <div className='container '>
+        <div className='container'>
 
-          <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 container ">
+          <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 ">
           </div>
           <div className="mb-14 text-center ">
             <h2 className="text-4xl text-left font-bold text-gray-900 leading-[3.25rem] mb-6 max-w-max ">

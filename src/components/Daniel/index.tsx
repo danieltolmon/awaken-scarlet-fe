@@ -1,68 +1,45 @@
 import Image from "next/image";
 import SectionTitle from "../Common/SectionTitle";
 
-const checkIcon = (
-  <svg width="16" height="13" viewBox="0 0 16 13" className="fill-current">
-    <path d="M5.8535 12.6631C5.65824 12.8584 5.34166 12.8584 5.1464 12.6631L0.678505 8.1952C0.483242 7.99994 0.483242 7.68336 0.678505 7.4881L2.32921 5.83739C2.52467 5.64193 2.84166 5.64216 3.03684 5.83791L5.14622 7.95354C5.34147 8.14936 5.65859 8.14952 5.85403 7.95388L13.3797 0.420561C13.575 0.22513 13.8917 0.225051 14.087 0.420383L15.7381 2.07143C15.9333 2.26669 15.9333 2.58327 15.7381 2.77854L5.8535 12.6631Z" />
-  </svg>
-);
-
-const AboutSectionOne = () => {
-  const List = ({ text }) => (
-    <p className="mb-5 flex items-center text-lg font-medium text-body-color">
-      <span className="mr-4 flex h-[30px] w-[30px] items-center justify-center rounded-md bg-primary bg-opacity-10 text-primary">
-        {checkIcon}
-      </span>
-      {text}
-    </p>
-  );
-
+const Daniel = () => {
   return (
     <section id="about" className="pt-16 md:pt-20 lg:pt-28">
       <div className="container">
         <div className="border-b border-body-color/[.15] pb-16 dark:border-white/[.15] md:pb-20 lg:pb-28">
-          <div className="-mx-4 flex flex-wrap items-center">
+          <div className=" flex flex-wrap items-center justify-between  mx-auto">
             <div className="w-full px-4 lg:w-1/2">
-              <SectionTitle
-                title="Crafted for Startup, SaaS and Business Sites."
-                paragraph="The main ‘thrust’ is to focus on educating attendees on how to best protect highly vulnerable business applications with interactive panel discussions and roundtables."
-                mb="44px"
-              />
 
               <div
-                className="mb-12 max-w-[570px] lg:mb-0"
-                data-wow-delay=".15s"
+                className="mr-4"
               >
-                <div className="mx-[-12px] flex flex-wrap">
-                  <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Premium quality" />
-                    <List text="Tailwind CSS" />
-                    <List text="Use for lifetime" />
-                  </div>
+                <h2 className="mb-4 text-center text-3xl font-bold !leading-tight text-black dark:text-white sm:text-4xl md:text-[45px]">
+                  Daniel
+                </h2>
+                <p className="text-base text-justify !leading-relaxed text-body-color md:text-lg">
+                  I have always had a deep sensitivity to the energies that flow through and around us. Over the years, this awareness has expanded into a profound understanding of how energy shapes our experiences and connects us to the greater universe. I now work as a Kundalini activator, helping others tap into their inner energy to awaken deeper levels of consciousness and personal transformation.
+                  <br /><br />
+                  In this role, I guide people on their spiritual journeys, facilitating the release of old patterns and helping them align with their true selves. My work is about empowering others to harness their energy, embrace change, and unlock their highest potential.
+                  <br /><br />
+                  I have always had a deep sensitivity to the energies that flow through and around us. Over the years, this awareness has expanded into a profound understanding of how energy shapes our experiences and connects us to the greater universe. I now work as a Kundalini activator, helping others tap into their inner energy to awaken deeper levels of consciousness and personal transformation.
+                  <br /><br />
+                  In this role, I guide people on their spiritual journeys, facilitating the release of old patterns and helping them align with their true selves. My work is about empowering others to harness their energy, embrace change, and unlock their highest potential.
 
-                  <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Next.js" />
-                    <List text="Rich documentation" />
-                    <List text="Developer friendly" />
-                  </div>
-                </div>
+                </p>
               </div>
+
+
             </div>
 
             <div className="w-full px-4 lg:w-1/2">
-              <div className="relative mx-auto aspect-[25/24] max-w-[500px] lg:mr-0">
+              <div className="relative mx-auto aspect-[400/600] lg:mr-0">
                 <Image
-                  src="/images/about/about-image.svg"
+                  // src="/images/daniel/daniel.png"
+                  src="/images/daniel/3.png"
                   alt="about-image"
                   fill
                   className="mx-auto max-w-full drop-shadow-three dark:hidden dark:drop-shadow-none lg:mr-0"
                 />
-                <Image
-                  src="/images/about/about-image-dark.svg"
-                  alt="about-image"
-                  fill
-                  className="mx-auto hidden max-w-full drop-shadow-three dark:block dark:drop-shadow-none lg:mr-0"
-                />
+
               </div>
             </div>
           </div>
@@ -72,4 +49,4 @@ const AboutSectionOne = () => {
   );
 };
 
-export default AboutSectionOne;
+export default Daniel;
