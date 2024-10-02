@@ -16,8 +16,8 @@ const Sessions = () => {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-lg mx-auto md:max-w-2xl lg:max-w-full">
 
-            {sessions.map(session => <div className="relative w-full h-auto md:col-span-2">
-              <div key={session.id} className="bg-primary/80 shadow-two border-black border-solid rounded-2xl flex  justify-between flex-row flex-wrap cursor-pointer">
+            {sessions.map(session => <div key={session.id} className="relative w-full h-auto md:col-span-2">
+              <div  className="bg-primary/80 shadow-two border-black border-solid rounded-2xl flex  justify-between flex-row flex-wrap cursor-pointer">
                 <div className="p-5 xl:p-8 w-full md:w-1/2 flex flex-col justify-between">
                   <h3 className="text-lg font-bold xl:text-xl text-white py-5 w-full xl:w-64">
                     {session.title}
