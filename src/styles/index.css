@@ -2,11 +2,18 @@
 
 @tailwind base;
 @tailwind components;
+
+@font-face {
+  font-family: 'atteron';
+  src: local('atteron'), url(/fonts/Atteron.ttf) format('ttf');
+}
+
 @tailwind utilities;
+
 
 @layer base {
   body {
-    font-family: "Inter", sans-serif;
+    font-family: "atteron", "Inter", sans-serif;
   }
 }
 

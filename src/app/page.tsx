@@ -1,14 +1,13 @@
-import AboutSectionOne from "@/components/About/AboutSectionOne";
-import AboutSectionTwo from "@/components/About/AboutSectionTwo";
+import Daniel from "@/components/Daniel";
 import Blog from "@/components/Blog";
-import Brands from "@/components/Brands";
+import Video from "@/components/Video";
 import ScrollUp from "@/components/Common/ScrollUp";
 import Contact from "@/components/Contact";
-import Features from "@/components/Features";
+import Scarlet from "@/components/Scarlet";
 import Hero from "@/components/Hero";
-import Pricing from "@/components/Pricing";
+import Sessions from "@/components/Sessions";
 import Testimonials from "@/components/Testimonials";
-import Video from "@/components/Video";
+import Quote from "@/components/Quote";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -22,14 +21,13 @@ export default function Home() {
     <>
       <ScrollUp />
       <Hero />
-      <Features />
+      <Quote />
+      <Scarlet />
+      <Sessions />
+      <Daniel />
       <Video />
-      <Brands />
-      <AboutSectionOne />
-      <AboutSectionTwo />
       <Testimonials />
-      <Pricing />
-      <Blog />
+      {/* <Blog /> */}
       <Contact />
     </>
   );
