@@ -1,5 +1,4 @@
 import React, { FunctionComponent } from 'react'
-import Script from 'next/script'
 import sessions from './sessionsData'
 import Link from 'next/link';
 
@@ -57,8 +56,7 @@ const Sessions: FunctionComponent<Props> = ({ isPage }) => {
             )
             }
 
-            <div className="tidycal-embed" data-path="danieltoledomonfort/15-minute-meeting" />
-            <Script src="https://asset-tidycal.b-cdn.net/js/embed.js" async />
+
 
           </div>
         </div>
