@@ -109,6 +109,7 @@ const Header = () => {
                               ? "text-primary dark:text-white"
                               : "text-dark hover:text-primary dark:text-white/70 dark:hover:text-white"
                               }`}
+                            onClick={navbarToggleHandler}
                           >
                             {menuItem.title}
                           </Link>
