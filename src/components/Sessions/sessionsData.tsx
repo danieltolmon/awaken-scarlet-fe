@@ -3,7 +3,7 @@ import { Session } from "@/types/session";
 const sessionsData: Session[] = [
   {
     id: 1,
-    title: 'Free Online Call',
+    title: 'Free Call Online',
     description: "Let's start! Book this call if you want to meet me, resolve doubts and understand better how kundalini activation can improve your life",
     price: 'Free',
     imageURL: '/images/sessions/free.png',
