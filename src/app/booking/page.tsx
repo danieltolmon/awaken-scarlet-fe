@@ -2,12 +2,10 @@ import React, { FunctionComponent } from 'react'
 import Script from 'next/script'
 import Link from 'next/link';
 
-type Props = {
-  type: 'free' | 'online' | 'presential'
-}
 
 
-const Bookings: FunctionComponent<Props> = ({ type }) => {
+
+const Bookings: FunctionComponent = () => {
 
   return (
     <>
