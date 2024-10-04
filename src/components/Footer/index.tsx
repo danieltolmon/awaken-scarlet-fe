@@ -38,7 +38,7 @@ const Footer = () => {
             <p className="text-center text-base text-light dark:text-primary">
               Made with 🤍 by {" "}
               <a
-                href="http://uideck.com"
+                href="https://github.com/danieltolmon"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-primary"
