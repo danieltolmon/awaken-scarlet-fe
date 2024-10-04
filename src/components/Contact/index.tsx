@@ -21,14 +21,14 @@ const Contact = () => {
             <div
               className="lg:mr-4 mr-0"
             >
-              <h2 className="mb-2 text-center text-3xl font-bold !leading-tight text-black dark:text-white sm:text-4xl md:text-[45px]">
+              <h2 className="font-luto mb-2 text-center text-3xl font-bold !leading-tight text-black dark:text-white sm:text-4xl md:text-[45px]">
                 Contact
               </h2>
-              <p className="text-base !leading-relaxed text-black md:text-lg text-center">Let&apos;s awaken together</p>
+              <p className="font-quicksand text-base !leading-relaxed text-black md:text-lg text-center">Let&apos;s awaken together</p>
             </div>
 
 
-            <div className="flex flex-col gap-12 items-start lg:mt-24 mt-16 lg:ml-24 xs:ml-16 ml-0">
+            <div className="font-quicksand flex flex-col gap-12 items-start lg:mt-24 mt-16 lg:ml-24 xs:ml-16 ml-0">
               <Link
                 href="https://wa.me/34692461556"
                 aria-label="social-link"
@@ -54,7 +54,7 @@ const Contact = () => {
                 aria-label="social-link"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="underline flex items-center gap-2  mr-3 text-black duration-300 hover:text-primary dark:text-black-dark dark:hover:text-primary"
+                className="font-quicksand underline flex items-center gap-2  mr-3 text-black duration-300 hover:text-primary dark:text-black-dark dark:hover:text-primary"
               >
                 <svg xmlns="http://www.w3.org/2000/svg"
                   width="26"
@@ -73,7 +73,7 @@ const Contact = () => {
                 aria-label="social-link"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="underline flex items-center gap-2 mr-3 text-black duration-300 hover:text-primary dark:text-black-dark dark:hover:text-primary"
+                className="font-quicksand underline flex items-center gap-2 mr-3 text-black duration-300 hover:text-primary dark:text-black-dark dark:hover:text-primary"
               >
                 <svg xmlns="http://www.w3.org/2000/svg"
                   width="30"

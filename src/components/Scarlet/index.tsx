@@ -9,8 +9,8 @@ const Scarlet = () => {
 
           <div className="w-full flex-col justify-start lg:items-start items-center gap-10 inline-flex">
             <div className="w-full flex-col justify-start lg:items-start items-center gap-4 flex">
-              <h2 className="text-gray-900 text-4xl font-bold font-manrope  text-center">Scarlet</h2>
-              <p className="text-gray-500 text-base font-normal leading-relaxed  text-justify">
+              <h2 className="font-luto text-gray-900 text-4xl font-bold font-manrope  text-center">SCARLET</h2>
+              <p className="font-quicksand text-gray-500 text-base font-normal leading-relaxed  text-justify">
                 <b>Welcome to Scarlet,</b> a transformative journey dedicated to awakening the power of Kundalini energy within you. Our mission is to guide you through a profound exploration of self-discovery, healing, and spiritual awakening.
                 <br />  <br />
                 The name Scarlet reflects the vibrant energy and transformative potential that lies at the heart of our practice. It ignites passion and vitality, to evoke the fire of transformation within you, helping you rise above limiting beliefs and embrace your true essence.
@@ -21,7 +21,7 @@ const Scarlet = () => {
             </div>
             <Link
               href="/kundalini"
-              className="rounded-md bg-primary px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
+              className="font-quicksand rounded-md bg-primary px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
             >
               What is Kundalini Activation ?
             </Link>

@@ -17,7 +17,7 @@ const Sessions: FunctionComponent<Props> = ({ isPage }) => {
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 ">
           </div>
           <div className="mb-14 text-center ">
-            <h2 className="text-4xl text-left font-bold text-gray-900 leading-[3.25rem] mb-6 max-w-max ">
+            <h2 className="font-luto text-4xl text-left font-bold text-gray-900 leading-[3.25rem] mb-6 max-w-max ">
               Sessions
             </h2>
           </div>
@@ -26,21 +26,22 @@ const Sessions: FunctionComponent<Props> = ({ isPage }) => {
             {sessions.map(session => <div key={session.id} className="relative w-full h-auto md:col-span-2">
               <div className="bg-primary/80 shadow-two border-black border-solid rounded-2xl flex  justify-between flex-row flex-wrap cursor-pointer">
                 <div className="p-5 xl:p-8 w-full md:w-1/2 flex flex-col justify-between">
-                  <h3 className="text-lg font-bold xl:text-xl text-white py-5 w-full xl:w-64">
+                  <h3 className="font-luto text-lg font-bold xl:text-xl text-white py-5 w-full xl:w-64">
                     {session.title}
                   </h3>
-                  <p className="text-xs font-normal text-gray-300 w-full mb-4 xl:w-64">
+                  <p className="font-quicksand text-xs font-normal text-gray-300 w-full mb-4 xl:w-64">
                     {session.description}
                   </p>
                   <p className="text-md font-normal text-gray-300 w-full mb-4 xl:w-64">
                     {session.price}
                   </p>
                   <div className='flex gap-4 mb-4'>
-                    <Link href='/contact' className=" py-2 px-5 border border-solid border-gray-300 rounded-md gap-2 text-xs text-white font-semibold flex items-center justify-between transition-all duration-500 hover:bg-white/5">
-                      Contact
-                    </Link>
-                    {session.booking &&
-                      <Link href={session.bookingLink} target='_blank' className="bg-primary py-2 px-5 border border-solid border-gray-300 rounded-md gap-2 text-xs text-white font-semibold flex items-center justify-between transition-all duration-500 hover:bg-white/5">
+                    {!session.booking ?
+                      <Link href='/contact' className="font-quicksand py-2 px-5 border border-solid border-gray-300 rounded-md gap-2 text-xs text-white font-semibold flex items-center justify-between transition-all duration-500 hover:bg-white/5">
+                        Contact
+                      </Link>
+                      :
+                      <Link href={session.bookingLink} target='_blank' className="font-quicksand bg-primary py-2 px-5 border border-solid border-gray-300 rounded-md gap-2 text-xs text-white font-semibold flex items-center justify-between transition-all duration-500 hover:bg-white/5">
                         Book
                       </Link>}
                   </div>

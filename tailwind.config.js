@@ -39,6 +39,12 @@ module.exports = {
       // => @media (min-width: 1400px) { ... }
     },
     extend: {
+      fontFamily: {
+        atteron: ['var(--font-atteron)'],
+        brittany: ['var(--font-brittany)'],
+        luto: ['var(--font-luto)'],
+        quicksand: ['var(--font-quicksand)'],
+      },
       colors: {
         current: "currentColor",
         transparent: "transparent",
