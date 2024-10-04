@@ -4,7 +4,6 @@ export type Session = {
   description: string;
   price: string;
   imageURL: string;
-  color: string;
   booking: boolean;
   bookingLink?: string
 }
