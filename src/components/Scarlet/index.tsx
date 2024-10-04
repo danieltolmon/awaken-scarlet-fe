@@ -27,8 +27,7 @@ const Scarlet = () => {
             </Link>
           </div>
 
-          {/* <video className="lg:mx-0 mx-auto object-cover h-[600px]" autoPlay loop muted playsInline> */}
-          <video className="lg:mx-0 mx-auto object-cover h-[600px]" >
+          <video className="lg:mx-0 mx-auto object-cover h-[600px]" autoPlay loop muted playsInline>
             <source src="/images/scarlet/megan.mp4" type="video/mp4" />
             video not sopported.
           </video>
