@@ -32,8 +32,8 @@ const Scarlet = () => {
             video not sopported.
           </video> */}
 
-          <video className="lg:mx-0 mx-auto object-cover h-[600px]" autoPlay loop muted playsInline>
-            <source src="/images/scarlet/megan.mp4" type="video/mp4" />
+          <video className="lg:mx-0 mx-auto object-cover h-[600px]" autoPlay loop muted playsInline controls={false}>
+            <source src="/images/scarlet/megan2.mp4" type="video/mp4" />
             video not sopported.
           </video>
 
