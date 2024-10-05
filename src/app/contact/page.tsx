@@ -9,7 +9,10 @@ export const metadata: Metadata = {
   applicationName: 'Awaken Scarlet',
   authors: [{name:'Daniel', url:'https://github.com/danieltolmon'}],
   generator:'Next.js',
-  keywords: ['kundalini', 'kundalini activation', 'Barcelona', 'tantra', 'chakra', 'energy', 'energy healing']
+  keywords: ['kundalini', 'kundalini activation', 'Barcelona', 'tantra', 'chakra', 'energy', 'energy healing'],
+  openGraph: {
+    images:['	https://www.awakenscarlet.com/images/logo/1.svg']
+   }
 };
 
 const ContactPage = () => {
