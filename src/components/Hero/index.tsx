@@ -45,7 +45,7 @@ const Hero = () => {
 
         <div className="absolute top-1/2 transform -translate-y-1/2 right-0 z-[-1]">
 
-          <video className="h-screen lg:h-[1200px] w-screen object-cover object-right" autoPlay loop muted playsInline controls={false}>
+          <video className="h-screen w-screen object-cover object-right" autoPlay loop muted playsInline controls={false}>
             <source src="/images/hero/1005.mp4" type="video/mp4" />
             video not sopported.
           </video>
