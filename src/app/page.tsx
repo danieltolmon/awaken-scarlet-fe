@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   generator: 'Next.js',
   keywords: ['kundalini', 'kundalini activation', 'Barcelona', 'tantra', 'chakra', 'energy', 'energy healing'],
   openGraph: {
-    images: ['	https://www.awakenscarlet.com/images/logo/1.svg']
+    images: ['https://www.awakenscarlet.com/logo-color.png']
   },
   metadataBase: new URL(`https://www.awakenscarlet.com`),
   alternates: {
