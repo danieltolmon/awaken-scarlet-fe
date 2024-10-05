@@ -4,7 +4,7 @@ const sessionsData: Session[] = [
   {
     id: 1,
     title: 'Free Call Online',
-    description: "Let's start! Book this call if you want to meet me, resolve doubts and understand better how kundalini activation can improve your life",
+    description: "Let’s Connect! Schedule a call with me to explore how kundalini activation can enhance your life and discover how we can work together.",
     price: 'Free',
     imageURL: '/images/sessions/free.png',
 
@@ -15,7 +15,7 @@ const sessionsData: Session[] = [
   {
     id: 2,
     title: '1:1 Sessions Online',
-    description: 'Energy transcends space and time allowing to transmit energy in different parts of the world',
+    description: 'Energy transcends space and time, allowing kundalini activation to be transmitted across the globe. All from the comfort of your own home.',
     price: '50€',
     imageURL: '/images/sessions/online.png',
 
@@ -25,7 +25,7 @@ const sessionsData: Session[] = [
   {
     id: 3,
     title: '1:1 Sessions Barcelona',
-    description: 'Presential sessions currently in Barcelona. In the heart of Gracia neibourhood. Book or contact me for details',
+    description: 'In-Person Sessions Now Available in Barcelona! Join me in the vibrant heart of Poble Nou neighborhood for transformative experiences tailored to your journey',
     price: '150€',
     imageURL: '/images/sessions/presential.png',
 
@@ -36,7 +36,7 @@ const sessionsData: Session[] = [
   {
     id: 4,
     title: 'Group Sessions',
-    description: 'In group energy field is shared and maximised. Contact me to know when is the next event',
+    description: 'In a group setting, the energy field is amplified and shared, creating a powerful environment for transformation. Contact me to find out when the next event is happening!',
     price: '50€',
     imageURL: '/images/sessions/group.png',
 

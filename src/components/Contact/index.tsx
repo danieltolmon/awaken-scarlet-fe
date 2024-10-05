@@ -24,7 +24,7 @@ const Contact = () => {
               <h2 className="font-luto mb-2 text-center text-3xl font-bold !leading-tight text-black dark:text-white sm:text-4xl md:text-[45px]">
                 Contact
               </h2>
-              <p className="font-quicksand text-base !leading-relaxed text-black md:text-lg text-center">Let&apos;s awaken together</p>
+              <p className="font-quicksand text-base !leading-relaxed text-black md:text-lg text-center">Let&apos;s rise together</p>
             </div>
 
 
@@ -34,7 +34,7 @@ const Contact = () => {
                 aria-label="social-link"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="underline flex items-center gap-2 mr-3 text-black duration-300 hover:text-primary dark:text-black-dark dark:hover:text-primary"
+                className="underline flex items-center gap-3 mr-3 text-black duration-300 hover:text-primary dark:text-black-dark dark:hover:text-primary"
               >
                 <svg xmlns="http://www.w3.org/2000/svg"
                   width="30"
@@ -50,7 +50,7 @@ const Contact = () => {
               </Link>
 
               <Link
-                href="/"
+                href="mailto:daniel.awakenscarlet@gmail.com"
                 aria-label="social-link"
                 target="_blank"
                 rel="noopener noreferrer"

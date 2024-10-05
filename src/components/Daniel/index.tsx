@@ -16,16 +16,15 @@ const Daniel = () => {
                   Daniel
                 </h2>
                 <p className="font-quicksand text-base text-justify !leading-relaxed text-body-color md:text-lg">
-                  I have always had a deep sensitivity to the energies that flow through and around us. Over the years, this awareness has expanded into a profound understanding of how energy shapes our experiences and connects us to the greater universe. I now work as a Kundalini activator, helping others tap into their inner energy to awaken deeper levels of consciousness and personal transformation.
-                  <br /><br />
-                  In this role, I guide people on their spiritual journeys, facilitating the release of old patterns and helping them align with their true selves. My work is about empowering others to harness their energy, embrace change, and unlock their highest potential.
-                  <br /><br />
-                  I have always had a deep sensitivity to the energies that flow through and around us. Over the years, this awareness has expanded into a profound understanding of how energy shapes our experiences and connects us to the greater universe. I now work as a Kundalini activator, helping others tap into their inner energy to awaken deeper levels of consciousness and personal transformation.
-                 
+                  Living between India and Barcelona, Daniel embodies a spiritual way of life, weaving the wisdom of the East into the modern world. His journey unites ancient traditions with contemporary knowledge, merging mind and body, spirituality and science.
+                  <br /> <br />
+                  Daniel's path began in renewable energy engineering and software development, where he spent several years creating solutions for the physical world. However, life chose a different direction for him—one dedicated to elevating human energy and dismantling limiting belief systems. His mission is to help people transform their perception of life and connecting them with their higher selves.
+                  <br /> <br />
+                  Through the practices of yoga, meditation, and tantra, Daniel has developed a heightened sensitivity to energy, allowing him to guide and empower individuals toward higher states of consciousness. He nurtures a collective shift towards a more aware and connected humanity, envisioning a future where spiritual awakening becomes the foundation for how we live, love, and grow as humanity.
+                  <br /> <br />
+                  Join Daniel on this journey towards the new era of spiritual awakening, where duality dissolves and we reunite with the divine.
                 </p>
-                {/* <h2 className="mt-8 text-end font-brittany mb-4 text-3xl font-bold !leading-tight text-black dark:text-white sm:text-4xl md:text-[45px]">
-                  Daniel
-                </h2> */}
+
               </div>
 
 

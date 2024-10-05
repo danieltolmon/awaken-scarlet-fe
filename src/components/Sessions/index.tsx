@@ -26,13 +26,13 @@ const Sessions: FunctionComponent<Props> = ({ isPage }) => {
             {sessions.map(session => <div key={session.id} className="relative w-full h-auto md:col-span-2">
               <div className="bg-primary/80 shadow-two border-black border-solid rounded-2xl flex  justify-between flex-row flex-wrap cursor-pointer">
                 <div className="p-5 xl:p-8 w-full md:w-1/2 flex flex-col justify-between">
-                  <h3 className="font-luto text-lg font-bold xl:text-xl text-white py-5 w-full xl:w-64">
+                  <h3 className="font-luto text-lg font-bold xl:text-xl text-white py-5 w-full">
                     {session.title}
                   </h3>
-                  <p className="font-quicksand text-xs font-normal text-gray-300 w-full mb-4 xl:w-64">
+                  <p className="font-quicksand text-xs font-normal text-gray-300 w-full mb-4">
                     {session.description}
                   </p>
-                  <p className="text-md font-normal text-gray-300 w-full mb-4 xl:w-64">
+                  <p className="text-md font-normal text-gray-300 w-full mb-4">
                     {session.price}
                   </p>
                   <div className='flex gap-4 mb-4'>
