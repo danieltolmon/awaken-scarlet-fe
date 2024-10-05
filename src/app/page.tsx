@@ -7,6 +7,7 @@ import Sessions from "@/components/Sessions";
 import Testimonials from "@/components/Testimonials";
 import Quote from "@/components/Quote";
 import QuoteImage from "@/components/QuoteImage"
+import ogImage from './opengraph-image.png'
 
 import { Metadata } from "next";
 
@@ -18,7 +19,7 @@ export const metadata: Metadata = {
   generator: 'Next.js',
   keywords: ['kundalini', 'kundalini activation', 'Barcelona', 'tantra', 'chakra', 'energy', 'energy healing'],
   openGraph: {
-    images: ['https://www.awakenscarlet.com/images/logo-color.png']
+    images: [{ url: ogImage.src }]
   },
   metadataBase: new URL(`https://www.awakenscarlet.com`),
   alternates: {
