@@ -6,7 +6,10 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Kundalini | Scarlet Kundalini Activation",
   description: "Awaken Scarlet empowers spiritual individuals through Kundalini activation. Unlock your highest potential with expert guidance and transformative experiences.",
-  // other metadata
+  applicationName: 'Awaken Scarlet',
+  authors: [{name:'Daniel', url:'https://github.com/danieltolmon'}],
+  generator:'Next.js',
+  keywords: ['kundalini', 'kundalini activation', 'Barcelona', 'tantra', 'chakra', 'energy', 'energy healing']
 };
 
 const KundaliniPage = () => {

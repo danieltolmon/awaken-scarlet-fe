@@ -5,7 +5,10 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Error Page | Scarlet Kundalini Activation",
   description: "Awaken Scarlet empowers spiritual individuals through Kundalini activation. Unlock your highest potential with expert guidance and transformative experiences.",
-  // other metadata
+  applicationName: 'Awaken Scarlet',
+  authors: [{name:'Daniel', url:'https://github.com/danieltolmon'}],
+  generator:'Next.js',
+  keywords: ['kundalini', 'kundalini activation', 'Barcelona', 'tantra', 'chakra', 'energy', 'energy healing']
 };
 
 const ErrorPage = () => {
@@ -150,7 +153,7 @@ const ErrorPage = () => {
                 </p>
                 <Link
                   href="/"
-                  className="px-8 py-3 text-base font-bold text-white duration-300 rounded-md bg-primary shadow-signUp hover:bg-white hover:text-primary md:px-9 lg:px-8 xl:px-9"
+                  className="px-8 py-3 text-base font-bold text-black duration-300 rounded-md bg-primary shadow-signUp hover:bg-white hover:text-primary md:px-9 lg:px-8 xl:px-9"
                 >
                   Back to Homepage
                 </Link>
