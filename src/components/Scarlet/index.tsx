@@ -32,14 +32,6 @@ const Scarlet = () => {
             video not sopported.
           </video>
 
-          {/* <div className="lg:mx-0 mx-auto object-cover h-[600px]" >
-
-            <iframe
-              src="https://www.youtube.com/embed?v=KpriocyQAQQ"
-
-            />
-          </div> */}
-
         </div>
 
       </section>
