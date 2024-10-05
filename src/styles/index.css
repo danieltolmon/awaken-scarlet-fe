@@ -8,7 +8,7 @@
 
 @layer components {
   .container {
-    @apply xs:max-w-[430px] sm:max-w-[525px] md:max-w-[718px] lg:max-w-[900px] xl:max-w-[1100px] 2xl:max-w-[1200px];
+    @apply w-[90%] xs:w-[100%] xs:max-w-[430px] sm:max-w-[525px] md:max-w-[718px] lg:max-w-[900px] xl:max-w-[1100px] 2xl:max-w-[1200px];
   }
 }
 
