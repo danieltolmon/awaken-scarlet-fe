@@ -28,9 +28,17 @@ const Scarlet = () => {
           </div>
 
           <video className="lg:mx-0 mx-auto object-cover h-[600px]" autoPlay loop muted playsInline>
-            <source src="/images/scarlet/megan.mp4" type="video/mp4" />
+            <source src="https://res.cloudinary.com/sail-away/video/upload/v1728110395/IMG_6011_2.mp4" type="video/mp4" />
             video not sopported.
           </video>
+
+          {/* <div className="lg:mx-0 mx-auto object-cover h-[600px]" >
+
+            <iframe
+              src="https://www.youtube.com/embed?v=KpriocyQAQQ"
+
+            />
+          </div> */}
 
         </div>
 
