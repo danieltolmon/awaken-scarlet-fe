@@ -13,9 +13,9 @@ const Hero = () => {
         <div className="container items-center">
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4">
-              <div className=" max-w-[800px] text-left">
-                <h1 className="font-luto mb-12 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
-                  Kundalini Activations
+              <div className=" max-w-[800px] text-left hidden">
+                <h1 className="drop-shadow-[0_2px_2px_rgba(0,0,0,0.8)] font-luto mb-12 text-3xl font-bold leading-tight text-light dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
+                  Kundalini Activation
                 </h1>
                 {/* <p className="font-quicksand mb-12 text-base !leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg md:text-xl">
                   Awaken Your Inner Life Force Energy and Transform Your Self
@@ -24,13 +24,13 @@ const Hero = () => {
                  
                   <Link
                     href="/kundalini"
-                    className="font-quicksand inline-block rounded-md bg-black px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-black/90 dark:bg-white/10 dark:text-white dark:hover:bg-white/5"
+                    className="font-quicksand inline-block rounded-md bg-black px-8 py-4 text-xs md:text-base font-semibold text-white duration-300 ease-in-out hover:bg-black/90 dark:bg-white/10 dark:text-white dark:hover:bg-white/5"
                   >
                     What is Kundalini Activation ?
                   </Link>
                   <Link
                     href="/sessions"
-                    className="font-quicksand rounded-md bg-light px-8 py-4 text-base font-semibold text-primary duration-300 ease-in-out hover:bg-light/80"
+                    className="font-quicksand rounded-md bg-light px-8 py-4 text-xs md:text-base font-semibold text-black duration-300 ease-in-out hover:bg-light/80"
                   >
                     Book your Session
                   </Link>
@@ -43,7 +43,7 @@ const Hero = () => {
 
 
 
-        <div className="absolute top-1/2 transform -translate-y-1/2 right-0 z-[-1] opacity-50">
+        <div className="absolute top-1/2 transform -translate-y-1/2 right-0 z-[-1]">
 
           <video className="h-screen lg:h-[1200px] w-screen object-cover object-right" autoPlay loop muted playsInline controls={false}>
             <source src="/images/hero/1005.mp4" type="video/mp4" />
