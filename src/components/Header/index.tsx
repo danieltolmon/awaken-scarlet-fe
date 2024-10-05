@@ -57,14 +57,14 @@ const Header = () => {
 
                 <Image
                   src="/images/logo/1.svg"
-                  alt="logo"
+                  alt="awakenscarlet kundalini activation logo"
                   width={40}
                   height={80}
                   className="w-full dark:hidden"
                 />
                 <Image
                   src="/images/logo/2.svg"
-                  alt="logo"
+                  alt="awakenscarlet kundalini activation logo"
                   width={40}
                   height={80}
                   className="hidden w-full dark:block"

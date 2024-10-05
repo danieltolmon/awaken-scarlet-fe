@@ -48,7 +48,7 @@ const Sessions: FunctionComponent<Props> = ({ isPage }) => {
 
                 </div>
                 <div className="relative hidden h-auto md:w-1/2 md:block rounded-tr-md">
-                  <img src={session.imageURL} alt="Header tailwind Section" className="h-full ml-auto object-cover rounded-r-2xl" />
+                  <img src={session.imageURL} alt="awakenscarlet kundalini activation sessions" className="h-full ml-auto object-cover rounded-r-2xl" />
                   {/* <a href="#" className=" absolute w-full h-full top-0 left-0 bg-primary opacity-0 z-10 transition-opacity duration-300 hover:opacity-40 rounded-r-2xl"></a> */}
                 </div>
               </div>

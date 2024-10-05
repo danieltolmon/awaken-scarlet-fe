@@ -10,7 +10,7 @@ const Contact = () => {
             <div className="relative mx-auto aspect-[1200/1200] lg:mr-0">
               <Image
                 src="/images/contact/11.png"
-                alt="about-image"
+                alt="awaken scarlet kundalini activation daniel"
                 fill
                 className="mx-auto max-w-full drop-shadow-three dark:hidden dark:drop-shadow-none lg:mr-0"
               />
