@@ -27,7 +27,7 @@ const Scarlet = () => {
             </Link>
           </div>
 
-          <video className="lg:mx-0 mx-auto object-cover h-[600px]" autoPlay loop muted playsInline>
+          <video className="lg:mx-0 mx-auto object-cover h-[600px]" autoPlay loop muted playsInline controls>
             <source src="https://res.cloudinary.com/sail-away/video/upload/v1728110395/IMG_6011_2.mp4" type="video/mp4" />
             video not sopported.
           </video>
