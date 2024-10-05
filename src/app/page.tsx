@@ -17,9 +17,13 @@ export const metadata: Metadata = {
   applicationName: 'Awaken Scarlet',
   authors: [{ name: 'Daniel', url: 'https://github.com/danieltolmon' }],
   generator: 'Next.js',
-  keywords: ['kundalini', 'kundalini activation', 'Barcelona', 'tantra', 'chakra', 'energy', 'energy healing'],
+  keywords: ['Kundalini Activation Barcelona', 'kundalinia activation online', 'Kundalini awakening Barcelona', 'kundalinia awakening online', 'kundalini', 'kundalini activation'],
   openGraph: {
-    images: [{ url: ogImage.src }]
+    images: [{
+      url: ogImage.src,
+      width: ogImage.width,
+      height: ogImage.height
+    }]
   },
   metadataBase: new URL(`https://www.awakenscarlet.com`),
   alternates: {
