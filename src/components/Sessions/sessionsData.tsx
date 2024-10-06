@@ -17,7 +17,7 @@ const sessionsData: Session[] = [
     title: '1:1 Sessions Online',
     description: 'Energy transcends space and time, allowing kundalini activation to be transmitted across the globe. All from the comfort of your own home.',
     price: '50€',
-    imageURL: '/images/sessions/online.png',
+    imageURL: '/images/sessions/online2.png',
 
     booking: true,
     bookingLink: 'https://tidycal.com/danielawakenscarlet/online'
@@ -27,12 +27,13 @@ const sessionsData: Session[] = [
     title: '1:1 Sessions Barcelona',
     description: 'In-Person Sessions Now Available in Barcelona! Join me in the vibrant heart of Poble Nou neighborhood for transformative experiences tailored to your journey',
     price: '150€',
-    imageURL: '/images/sessions/presential.png',
+    imageURL: '/images/sessions/presential3.png',
 
 
     booking: true,
     bookingLink: 'https://tidycal.com/danielawakenscarlet/in-person'
   },
+
   {
     id: 4,
     title: 'Group Sessions',
