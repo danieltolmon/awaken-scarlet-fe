@@ -10,7 +10,7 @@ const sessionsData: Session[] = [
 
 
     booking: true,
-    bookingLink: 'https://tidycal.com/danielawakenscarlet/free-call'
+    bookingLink: 'https://tidycal.com/danieldaka/free-call'
   },
   {
     id: 2,
@@ -20,7 +20,7 @@ const sessionsData: Session[] = [
     imageURL: '/images/sessions/online2.png',
 
     booking: true,
-    bookingLink: 'https://tidycal.com/danielawakenscarlet/online'
+    bookingLink: 'https://tidycal.com/danieldaka/online'
   },
   {
     id: 3,
@@ -31,7 +31,7 @@ const sessionsData: Session[] = [
 
 
     booking: true,
-    bookingLink: 'https://tidycal.com/danielawakenscarlet/in-person'
+    bookingLink: 'https://tidycal.com/danieldaka/in-person'
   },
 
   {
