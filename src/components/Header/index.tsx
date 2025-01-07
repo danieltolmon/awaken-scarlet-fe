@@ -14,12 +14,12 @@ const Header = () => {
   };
 
   // Sticky Navbar
-  const [sticky, setSticky] = useState(false);
+  const [sticky, setSticky] = useState(false); //false
   const handleStickyNavbar = () => {
     if (window.scrollY >= 1) {
       setSticky(true);
     } else {
-      setSticky(false);
+      setSticky(false); //false
     }
   };
   useEffect(() => {
@@ -43,7 +43,7 @@ const Header = () => {
       <header
         className={`header left-0 top-0 z-40 flex w-full items-center h-24 ${sticky
           ? "dark:bg-gray-dark dark:shadow-sticky-dark fixed z-[9999] bg-light !bg-opacity-80 shadow-sticky backdrop-blur-sm transition"
-          : "absolute bg-transparent"
+          : "absolute bg-light !bg-opacity-50"
           }`}
       >
         <div className="container">
