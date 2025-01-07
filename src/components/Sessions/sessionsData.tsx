@@ -3,7 +3,7 @@ import { Session } from "@/types/session";
 const sessionsData: Session[] = [
   {
     id: 1,
-    title: 'Llamda gratuita',
+    title: 'Llamada gratuita',
     description: "Agenda una llamada conmigo si deseas conocerte a través de mi. Puedes preguntarme lo que desees, conocerme mejor y, reconocerte. En las transmisiones energéticas, lo más importante es establecer una conexión auténtica con la energía de tu facilitador.",
     price: 'Gratis',
     imageURL: '/images/sessions/free.png',
