@@ -3,29 +3,31 @@ import Link from "next/link";
 const Scarlet = () => {
   return (
     <>
-      <section id="scarlet" className="py-16 md:py-20 lg:py-28 container">
+      <section id="scarlet" className="py-6 md:py-8 lg:py-10 container">
 
         <div className="w-full justify-start items-center gap-8 flex flex-col lg:flex-row-reverse">
 
           <div className="w-full flex-col justify-start lg:items-start items-center gap-10 inline-flex">
             <div className="w-full flex-col justify-start lg:items-start items-center gap-4 flex">
-              <h2 className="font-luto text-gray-900 text-4xl font-bold font-manrope  text-center">SCARLET</h2>
+  
+              <h2 className="font-luto text-gray-900 text-4xl font-bold font-manrope  text-center">DAKA</h2>
               <p className="font-quicksand text-gray-500 text-base font-normal leading-relaxed  text-justify">
-                Welcome to Scarlet, a transformative journey dedicated to awakening the power of Kundalini energy within you. Our mission is to guide you through a profound exploration of self-discovery, healing, and spiritual awakening.
+                En tantra, Daka es un guía espiritual y sanador masculino que trabaja con energías sutiles para facilitar la sanación, el despertar espiritual y la transformación personal. Es el complemento masculino de la Dakini.
                 <br /><br />
-                Scarlet is the color that reflects the energy and transformative potential that lies in our hearts. It ignites passion and vitality, helping you rise to your true essence.
+                Daka es mucho más que un practicante espiritual: es un canal de energía divina, un facilitador que ayuda a otros a reconocer su propia esencia energética y a liberar bloqueos que limitan su bienestar. A través de prácticas tántricas como la sexualidad sagrada, la transmisión energética y el masaje de toque consciente.
                 <br /><br />
-                Kundalini activation is a journey that encompasses emotional healing, mental clarity, and physical vitality. Our approach integrates ancient wisdom with modern techniques, providing a safe and nurturing environment for exploration and growth.
+                És un guía para quienes buscan equilibrio, expansión y sanación. Para los valientes que queiren verdaderamente aprender a AMAR, con el corazón abierto.
+                Su presencia consciente y sin juicio crea un espacio seguro donde las personas pueden explorar su energía vital, desbloquear emociones reprimidas y descubrir el potencial transformador de su propio SER.
                 <br /><br />
-                Join us as we embrace the power of Scarlet—a symbol of rebirth, passion, and profound awakening. Together, we will illuminate your path to a more vibrant, conscious, and empowered life.
+                Además, Daka juega un papel esencial en la integración de la sexualidad sagrada, ayudando a las personas a reconectar con su energía sexual desde una perspectiva consciente y espiritual. 
               </p>
             </div>
-            <Link
+            {/* <Link
               href="/kundalini"
               className="font-quicksand rounded-md bg-primary px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
             >
               What is Kundalini Activation ?
-            </Link>
+            </Link> */}
           </div>
 
           {/* <video className="lg:mx-0 mx-auto object-cover h-[600px]" autoPlay loop muted playsInline controls>

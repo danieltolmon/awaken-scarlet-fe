@@ -1,7 +1,7 @@
 import Daniel from "@/components/Daniel";
 import ScrollUp from "@/components/Common/ScrollUp";
 import Contact from "@/components/Contact";
-import Scarlet from "@/components/Scarlet";
+import Daka from "@/components/Daka";
 import Hero from "@/components/Hero";
 import Sessions from "@/components/Sessions";
 import Testimonials from "@/components/Testimonials";
@@ -12,12 +12,12 @@ import ogImage from './opengraph-image.png'
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Scarlet Kundalini Activation",
-  description: "Awaken Scarlet empowers spiritual individuals through Kundalini activation. Unlock your highest potential with expert guidance and transformative experiences.",
-  applicationName: 'Awaken Scarlet',
+  title: "Daniel Daka",
+  description: "Daniel Daka empowers spiritual individuals through Kundalini activation. Unlock your highest potential with expert guidance and transformative experiences.",
+  applicationName: 'Daniel Daka',
   authors: [{ name: 'Daniel', url: 'https://github.com/danieltolmon' }],
   generator: 'Next.js',
-  keywords: ['Kundalini Activation Barcelona', 'kundalinia activation online', 'Kundalini awakening Barcelona', 'kundalinia awakening online', 'kundalini', 'kundalini activation'],
+  keywords: ['Kundalini Activation Barcelona', 'kundalinia activation online', 'Kundalini awakening Barcelona', 'kundalinia awakening online', 'kundalini', 'kundalini activation', 'tantra', 'sexualidad sagrada', 'amor', 'conexion', 'masaje tantrico'],
   openGraph: {
     images: [{
       url: ogImage.src,
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
       height: ogImage.height
     }]
   },
-  metadataBase: new URL(`https://www.awakenscarlet.com`),
+  metadataBase: new URL(`https://www.danieldaka.com`),
   alternates: {
     canonical: './',
   }
@@ -37,7 +37,7 @@ export default function Home() {
       <ScrollUp />
       <Hero />
       <Quote />
-      <Scarlet />
+      <Daka />
       <Sessions />
       {/* <Testimonials /> */}
       <Daniel />

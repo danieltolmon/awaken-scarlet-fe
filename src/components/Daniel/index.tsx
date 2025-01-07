@@ -16,13 +16,13 @@ const Daniel = () => {
                   Daniel
                 </h2>
                 <p className="font-quicksand text-base text-justify !leading-relaxed text-body-color md:text-lg">
-                  Living between India and Barcelona, Daniel embodies a spiritual way of life, weaving the wisdom of the East into the modern world. His journey unites ancient traditions with contemporary knowledge, merging mind and body, spirituality and science.
+                  Viviendo entre India y Barcelona, Daniel encarna una forma de vida espiritual, tejiendo la sabiduría de Oriente en el mundo moderno. Su camino une tradiciones ancestrales con conocimientos contemporáneos, fusionando mente y cuerpo, espiritualidad y ciencia.
                   <br /> <br />
-                  Daniel&apos;s path began in renewable energy engineering and software development, where he spent several years creating solutions for the physical world. However, life chose a different direction for him—one dedicated to elevating human energy and dismantling limiting belief systems. His mission is to help people transform their perception of life and connecting them with their higher selves.
+                  El viaje de Daniel comenzó en la ingeniería de energías renovables y el desarrollo de software, donde pasó varios años creando soluciones para el mundo físico. Sin embargo, la vida lo guió en una dirección diferente: una dedicada a elevar la energía humana y desmantelar sistemas de creencias limitantes. Su misión es ayudar a las personas a transformar su percepción de la vida y conectarlas con su ser superior.
                   <br /> <br />
-                  Through the practices of yoga, meditation, and tantra, Daniel has developed a heightened sensitivity to energy, allowing him to guide and empower individuals toward higher states of consciousness. He nurtures a collective shift towards a more aware and connected humanity, envisioning a future where spiritual awakening becomes the foundation for how we live, love, and evolve.
+                  A través de las prácticas de yoga, meditación y tantra, Daniel ha desarrollado una sensibilidad elevada hacia la energía, lo que le permite guiar y empoderar a las personas hacia estados superiores de conciencia. Fomenta un cambio colectivo hacia una humanidad más consciente y conectada, imaginando un futuro donde el despertar espiritual sea la base de cómo vivimos, amamos y evolucionamos.
                   <br /> <br />
-                  Join Daniel on this journey towards the new era of spiritual awakening, where duality dissolves and we reunite with the divine.
+                  Únete a Daniel en este viaje hacia una nueva era de despertar espiritual, donde la dualidad se disuelve y nos reunimos con lo divino.
                 </p>
 
               </div>

@@ -41,7 +41,7 @@ const Header = () => {
   return (
     <>
       <header
-        className={`header left-0 top-0 z-40 flex w-full items-center ${sticky
+        className={`header left-0 top-0 z-40 flex w-full items-center h-24 ${sticky
           ? "dark:bg-gray-dark dark:shadow-sticky-dark fixed z-[9999] bg-light !bg-opacity-80 shadow-sticky backdrop-blur-sm transition"
           : "absolute bg-transparent"
           }`}
@@ -51,20 +51,20 @@ const Header = () => {
             <div className="w-18 max-w-full px-2 xl:mr-12">
               <Link
                 href="/"
-                className={`header-logo block w-full ${sticky ? "py-5 lg:py-2" : "py-6"
+                className={`header-logo block w-full ${sticky ? "py-5 lg:py-2" : ""
                   } `}
               >
 
                 <Image
                   src="/images/logo/1.svg"
-                  alt="awakenscarlet kundalini activation logo"
+                  alt="daniel daka logo"
                   width={40}
                   height={80}
                   className="w-full dark:hidden"
                 />
                 <Image
                   src="/images/logo/2.svg"
-                  alt="awakenscarlet kundalini activation logo"
+                  alt="daniel daka logo"
                   width={40}
                   height={80}
                   className="hidden w-full dark:block"

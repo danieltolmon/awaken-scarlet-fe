@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Contact = () => {
   return (
-    <section id="contact" className="overflow-hidden py-16 md:py-20 lg:py-28">
+    <section id="contact" className="overflow-hidden py-6 md:py-8 lg:py-10">
       <div className="container">
         <div className="-mx-4 flex flex-col-reverse lg:flex-row">
           <div className="w-full px-4 lg:w-1/2">
@@ -22,9 +22,9 @@ const Contact = () => {
               className="lg:mr-4 mr-0"
             >
               <h2 className="font-luto mb-2 text-center text-3xl font-bold !leading-tight text-black dark:text-white sm:text-4xl md:text-[45px]">
-                Contact
+                Contacto
               </h2>
-              <p className="font-quicksand text-base !leading-relaxed text-black md:text-lg text-center">Let&apos;s rise together</p>
+              <p className="font-quicksand text-base !leading-relaxed text-black md:text-lg text-center">Reencuentrate con tu SER</p>
             </div>
 
 
@@ -65,11 +65,11 @@ const Contact = () => {
                     fill="currentColor"
                     d="M64 112c-8.8 0-16 7.2-16 16l0 22.1L220.5 291.7c20.7 17 50.4 17 71.1 0L464 150.1l0-22.1c0-8.8-7.2-16-16-16L64 112zM48 212.2L48 384c0 8.8 7.2 16 16 16l384 0c8.8 0 16-7.2 16-16l0-171.8L322 328.8c-38.4 31.5-93.7 31.5-132 0L48 212.2zM0 128C0 92.7 28.7 64 64 64l384 0c35.3 0 64 28.7 64 64l0 256c0 35.3-28.7 64-64 64L64 448c-35.3 0-64-28.7-64-64L0 128z" />
                 </svg>
-                daniel.awakenscarlet@gmail.com
+                daniel.toledomonfort@gmail.com
               </Link>
 
               <Link
-                href="https://www.instagram.com/awaken.scarlet/"
+                href="https://www.instagram.com/danieldaka_/"
                 aria-label="social-link"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -84,7 +84,7 @@ const Contact = () => {
                     fill="currentColor"
                     d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" />
                 </svg>
-                @awaken.scarlet
+                @danieldaka_
               </Link>
 
 

@@ -1,30 +1,30 @@
 import { Menu } from "@/types/menu";
 
 const menuData: Menu[] = [
-  {
-    id: 1,
-    title: "home.",
-    path: "/",
-    scroll: true,
-    newTab: false,
-  },
+  // {
+  //   id: 1,
+  //   title: "home.",
+  //   path: "/",
+  //   scroll: true,
+  //   newTab: false,
+  // },
   {
     id: 2,
-    title: "scarlet.",
-    path: "/scarlet",
+    title: "daka.",
+    path: "/daka",
     scroll: false,
     newTab: false,
   },
-  {
-    id: 3,
-    title: "kundalini.",
-    path: "/kundalini",
-    scroll: true,
-    newTab: false,
-  },
+  // {
+  //   id: 3,
+  //   title: "kundalini.",
+  //   path: "/kundalini",
+  //   scroll: true,
+  //   newTab: false,
+  // },
   {
     id: 4,
-    title: "sessions.",
+    title: "sessiones.",
     path: "/sessions",
     scroll: true,
     newTab: false,
@@ -38,7 +38,7 @@ const menuData: Menu[] = [
   },
   {
     id: 6,
-    title: "contact.",
+    title: "contacto.",
     path: "/contact",
     scroll: true,
     newTab: false,

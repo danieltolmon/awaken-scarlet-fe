@@ -2,7 +2,7 @@
 const QuoteImage = () => {
   return (
     <>
-      <section id="quoteImage" className="py-16 md:py-20 lg:py-28 bg-[url('/images/quote/quoteImage.jpg')] bg-no-repeat bg-cover bg-center">
+      <section id="quoteImage" className="py-6 md:py-8 lg:py-10 bg-[url('/images/quote/quoteImage.jpg')] bg-no-repeat bg-cover bg-center">
         <div className="container">
           <h2 className="mb-4 text-2xl font-bold !leading-tight text-center text-light dark:text-white sm:text-4xl md:text-[45px]">
             When consciousness.- Shiva

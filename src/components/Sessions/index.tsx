@@ -11,14 +11,14 @@ const Sessions: FunctionComponent<Props> = ({ isPage }) => {
 
   return (
     <>
-      <section id="sessions" className={`py-16 md:py-20 lg:py-28 ${isPage ? 'bg-light' : 'bg-light2'}`}>
+      <section id="sessions" className={`py-6 md:py-8 lg:py-10 ${isPage ? 'bg-light' : 'bg-light2'}`}>
         <div className='container'>
 
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 ">
           </div>
           <div className="mb-14 text-center ">
             <h2 className="font-luto text-4xl text-left font-bold text-gray-900 leading-[3.25rem] mb-6 max-w-max ">
-              Sessions
+              Sessiones
             </h2>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-lg mx-auto md:max-w-2xl lg:max-w-full">
@@ -48,7 +48,7 @@ const Sessions: FunctionComponent<Props> = ({ isPage }) => {
 
                 </div>
                 <div className="relative hidden h-auto md:w-1/2 md:block rounded-tr-md">
-                  <img src={session.imageURL} alt="awakenscarlet kundalini activation sessions" className="h-full ml-auto object-cover rounded-r-2xl" />
+                  <img src={session.imageURL} alt="daniel daka sessions" className="h-full ml-auto object-cover rounded-r-2xl" />
                   {/* <a href="#" className=" absolute w-full h-full top-0 left-0 bg-primary opacity-0 z-10 transition-opacity duration-300 hover:opacity-40 rounded-r-2xl"></a> */}
                 </div>
               </div>

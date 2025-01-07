@@ -1,4 +1,4 @@
-import Scarlet from "@/components/Scarlet";
+import Scarlet from "@/components/Daka";
 
 import { Metadata } from "next";
 

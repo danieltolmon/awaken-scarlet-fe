@@ -13,14 +13,14 @@ const Footer = () => {
               <Link href="/" className=" inline-block">
                 <Image
                   src="/images/logo/2.svg"
-                  alt="awakenscarlet kundalini activation logo"
+                  alt="daniel daka logo"
                   className="w-full dark:hidden"
                   width={40}
                   height={80}
                 />
                 <Image
                   src="/images/logo/1.svg"
-                  alt="awakenscarlet kundalini activation logo"
+                  alt="daniel daka logo"
                   className="hidden w-full dark:block"
                   width={40}
                   height={80}
@@ -94,7 +94,7 @@ const Footer = () => {
           <div className="h-px w-full bg-gradient-to-r from-transparent via-[#D2D8E183] to-transparent dark:via-[#959CB183]"></div>
           <div className="py-4">
             <p className="text-center text-base text-light dark:text-primary">
-              Made with 🤍 by {" "}
+              Hecho con 🤍 {" "} por {" "}
               <a
                 href="https://github.com/danieltolmon"
                 target="_blank"
@@ -104,7 +104,7 @@ const Footer = () => {
                 Daniel
               </a>{" "}
             </p>
-            <p className="text-center text-base text-light dark:text-primary" >© Copyright 2024 awakenscarlet.com • All Rights Reserved</p>
+            <p className="text-center text-base text-light dark:text-primary" >© Copyright 2024 danieldaka.com • All Rights Reserved</p>
           </div>
         </div>
 
