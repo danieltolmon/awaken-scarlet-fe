@@ -35,7 +35,7 @@ const Daniel = () => {
                 <Image
                   // src="/images/daniel/daniel.png"
                   src="/images/daniel/3.png"
-                  alt="awakenscarlet kundalini activation daniel"
+                  alt="awakenDaniel Daka daniel"
                   fill
                   className="mx-auto max-w-full drop-shadow-three dark:hidden dark:drop-shadow-none lg:mr-0"
                 />
