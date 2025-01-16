@@ -136,7 +136,7 @@ const Header = () => {
                                 }`}
                             >
                               {menuItem.submenu.map((submenuItem, index) => (
-                                <div className="bg-light ">
+                                <div className="bg-light " key={index}>
                                   <Link
                                     href={submenuItem.path}
                                     key={index}

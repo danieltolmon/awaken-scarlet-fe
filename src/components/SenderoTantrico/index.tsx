@@ -58,7 +58,7 @@ const Contact = () => {
                 <div className="flex-1">
 
                   {
-                    senderoTantricoData.logros.map(logro => <li className="font-quicksand mb-4 list-none">
+                    senderoTantricoData.logros.map((logro, i) => <li key={i} className="font-quicksand mb-4 list-none">
                       <span className="underline underline-offset-2">{logro.title}</span>: {logro.description}
                     </li>
                     )
@@ -128,7 +128,7 @@ const Contact = () => {
                     <div className="mt-8">
 
                       {
-                        senderoTantricoData.para.map(p => <li className="font-quicksand list-none mb-4 ">
+                        senderoTantricoData.para.map((p, i) => <li key={i} className="font-quicksand list-none mb-4 ">
                           {p}
                         </li>
                         )
