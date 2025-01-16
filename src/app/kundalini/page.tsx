@@ -34,10 +34,10 @@ const KundaliniPage = () => {
       <div className="flex gap-4 justify-center">
 
         <Link href='/contact' className="font-quicksand py-2 px-5 border border-solid border-primary rounded-md gap-2 text-md text-black font-semibold flex items-center justify-between transition-all duration-500 hover:bg-white/5">
-          Contact me
+          contacta me
         </Link>
         <Link href='https://tidycal.com/danieldaka/free-call' target='_blank' className="font-quicksand bg-primary py-2 px-5 border border-solid border-primary rounded-md gap-2 text-md text-white font-semibold flex items-center justify-between transition-all duration-500 hover:bg-primary/80">
-          Book free call
+          reserva llamada gratuita
         </Link>
       </div>
     </div>

@@ -1,4 +1,5 @@
 import Daniel from "@/components/Daniel";
+import Scarlet from "@/components/Daka";
 
 import { Metadata } from "next";
 
@@ -8,7 +9,7 @@ export const metadata: Metadata = {
   applicationName: 'Awaken Scarlet',
   authors: [{ name: 'Daniel', url: 'https://github.com/danieltolmon' }],
   generator: 'Next.js',
-keywords: ['Kundalini Activation Barcelona', 'kundalinia activation online', 'Kundalini awakening Barcelona', 'kundalinia awakening online', 'kundalini', 'kundalini activation'],
+  keywords: ['Kundalini Activation Barcelona', 'kundalinia activation online', 'Kundalini awakening Barcelona', 'kundalinia awakening online', 'kundalini', 'kundalini activation'],
   openGraph: {
     images: ['https://www.danieldaka.com/images/logo-color.png']
   },
@@ -21,6 +22,7 @@ keywords: ['Kundalini Activation Barcelona', 'kundalinia activation online', 'Ku
 const DanielPage = () => {
   return (
     <div className="mt-24">
+      <Scarlet />
       <Daniel />
     </div>
   );

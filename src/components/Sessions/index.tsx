@@ -18,7 +18,7 @@ const Sessions: FunctionComponent<Props> = ({ isPage }) => {
           </div>
           <div className="mb-14 text-center ">
             <h2 className="font-luto text-4xl text-left font-bold text-gray-900 leading-[3.25rem] mb-6 max-w-max ">
-              Sessiones
+              Transmisión <br/> energética SER
             </h2>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-lg mx-auto md:max-w-2xl lg:max-w-full">
@@ -37,12 +37,12 @@ const Sessions: FunctionComponent<Props> = ({ isPage }) => {
                   </p>
                   <div className='flex gap-4 mb-4'>
                     {!session.booking ?
-                      <Link href='/contact' className="font-quicksand py-2 px-5 border border-solid border-gray-300 rounded-md gap-2 text-xs text-white font-semibold flex items-center justify-between transition-all duration-500 hover:bg-white/5">
-                        Contact
+                      <Link href='/contact' className="font-quicksand py-2 px-5 border border-solid border-gray-300 rounded-md gap-2 text-xs text-white  flex items-center justify-between transition-all duration-500 hover:bg-white/5">
+                        Contacta
                       </Link>
                       :
-                      <Link href={session.bookingLink} target='_blank' className="font-quicksand bg-primary py-2 px-5 border border-solid border-gray-300 rounded-md gap-2 text-xs text-white font-semibold flex items-center justify-between transition-all duration-500 hover:bg-white/5">
-                        Book
+                      <Link href={session.bookingLink} target='_blank' className="font-quicksand bg-primary py-2 px-5 border border-solid border-gray-300 rounded-md gap-2 text-xs text-white  flex items-center justify-between transition-all duration-500 hover:bg-white/5">
+                        Reserva
                       </Link>}
                   </div>
 
