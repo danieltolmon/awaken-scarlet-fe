@@ -113,11 +113,11 @@ const Contact = () => {
 
               {/* PARA QUIEN ES */}
               <div>
-                <p className="font-luto font-boldtext-xl leading-relaxed text-primary text-xl text-justify mb-4">Este programa es para...</p>
+                <p className="font-luto font-boldtext-xl leading-relaxed text-primary text-xl text-justify ">Este programa es para...</p>
                 <div className="flex gap-8 mt-8">
 
                   <Image
-                    className="flex rounded-md rounded-tr-[80px]"
+                    className="sm:flex rounded-md rounded-tr-[80px] hidden"
                     src="/images/sendero/daniel.jpg"
                     alt="chakras"
                     width={300}
@@ -125,7 +125,7 @@ const Contact = () => {
                   />
 
                   <div className="flex flex-col justify-between">
-                    <div className="mt-8">
+                    <div className="md:mt-8">
 
                       {
                         senderoTantricoData.para.map((p, i) => <li key={i} className="font-quicksand list-none mb-4 ">
@@ -139,7 +139,7 @@ const Contact = () => {
                       <Link
                         href='https://tidycal.com/danieldaka/free-call'
                         target="_blank"
-                        className=" text-xl hover:text-primary-500 hover:text-primary font-semibold text-light hover:bg-light bg-primary py-2 px-4 border border-primary rounded">
+                        className="text-sm md:text-xl hover:text-primary-500 hover:text-primary font-semibold text-light hover:bg-light bg-primary py-2 px-4 border border-primary rounded">
                         Reserva una llamada gratuita
                       </Link>
                     </div>

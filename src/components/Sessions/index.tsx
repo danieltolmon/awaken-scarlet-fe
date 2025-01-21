@@ -17,7 +17,7 @@ const Sessions: FunctionComponent<Props> = ({ isPage }) => {
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 ">
           </div>
           <div className="mb-14 text-center ">
-            <h2 className="font-luto text-4xl text-left font-bold text-gray-900 leading-[3.25rem] mb-6 max-w-max ">
+            <h2 className="font-luto text-2xl text-left font-bold text-gray-900 leading-[3.25rem] mb-6 max-w-max ">
               Transmisión <br/> energética SER
             </h2>
           </div>
