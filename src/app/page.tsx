@@ -3,7 +3,7 @@ import ScrollUp from "@/components/Common/ScrollUp";
 import Contact from "@/components/Contact";
 import Daka from "@/components/Daka";
 import Hero from "@/components/Hero";
-import Sessions from "@/components/Sessions";
+import Services from "@/components/Services";
 import Testimonials from "@/components/Testimonials";
 import Quote from "@/components/Quote";
 import QuoteImage from "@/components/QuoteImage"
@@ -38,7 +38,7 @@ export default function Home() {
       <Hero />
       <Quote />
       <Daka />
-      <Sessions />
+      <Services />
       {/* <Testimonials /> */}
       <Daniel />
       {/* <QuoteImage /> */}
